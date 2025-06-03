@@ -82,6 +82,12 @@ target/
 profile_default/
 ipython_config.py
 
+# trained model
+.pkl
+
+# Vs code
+.DS_Store
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
@@ -192,3 +198,5 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+app/vectorizer.pkl
+app/spam_model.pkl
